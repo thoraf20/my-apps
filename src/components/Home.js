@@ -1,6 +1,7 @@
 import React, { Fragment } from "react";
 import { Helmet } from "react-helmet";
-import {Link}  from "react-router-dom";
+import { Link } from "react-router-dom";
+import Play from "./quiz/play"; 
 
 
 const Home = () => (
@@ -8,10 +9,11 @@ const Home = () => (
         <Helmet><title>JS-QUIZ-APP-HOME</title></Helmet>
         <div id="home">
             <section>
-                <div>
-                    <span className="mdi mdi-cube-outline cube"></span>
+                <div className="logo">
+                    <span className="mdi mdi-circle-outline circle"></span>
                 </div>
                 <h1>JS-QUIZ</h1>
+ 
                 <div className="play-button-container">
                     <ul>
                         <li ><Link className="play-button" to="/play/instructions">Play</Link></li>

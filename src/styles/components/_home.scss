@@ -18,9 +18,15 @@
         border-radius: 8px;
     }
 
-    .cube {
-        font-size:8rem;
+    .logo {
+        text-align: center;
+        margin: 30px;
+    }
+
+    .circle {
+        font-size:6rem;
         color:$orange;
+        align-items: center;
     }
 
     h1 {
@@ -33,6 +39,12 @@
 
     .play-button-container {
         width:100%;
+        
+    }
+
+    .play-button-container ul {
+        width: 100%;
+        list-style: none;
     }
 
     a.play-button {  //compile down to regular html and css
