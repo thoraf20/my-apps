@@ -6,3 +6,29 @@
 body {
     font-family: q$quicksand;
 }
+
+.toast-invalid {
+    background-color: $error-text !important;
+    border-radius: 5px !important;
+    color: whitesmoke !important;
+    width : 120px;
+    height: 40px;
+    padding-top:10px;
+    padding-left: 10px;
+    margin:100px;
+    margin-top: 10px;
+
+}
+
+.toast-valid {
+    background-color: $success-text !important;
+    border-radius: 5px !important;
+    color: whitesmoke !important;
+    width : 120px;
+    height: 40px;
+    padding-top:10px;
+    padding-left: 10px;
+    margin:100px;
+    margin-top: 10px;
+
+}

@@ -1,4 +1,4 @@
-import React, { Component, Fragment } from "react";
+import React, { Fragment } from "react";
 import { Link } from "react-router-dom";
 import { Helmet } from "react-helmet";
 
@@ -28,11 +28,9 @@ const QuizInstructions = () => (
             <div className="links">
                 <span className="left"><Link to="/">No take me back.</Link></span>
                 <span className="right">< Link to="/play/quiz " > Ok, lets do this. </Link></span >
-
             </div>
         </div>
     </Fragment>
-    
 
 )
 

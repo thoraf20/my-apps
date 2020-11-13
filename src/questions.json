@@ -1,0 +1,40 @@
+
+
+ [
+    {
+    "question": "Which of the following is a disadvantage of using JavaScript?",
+    "optionA": "Client-side JavaScript does not allow the reading or writing of files.",
+    "optionB": "can not be used for Networking applications because there ",
+    "optionC": "doesn't have any multithreading or multiprocess capabilities.", 
+    "optionD": "All of the above",
+    "answer": "All of the above"
+    },
+    
+    {
+        "question": "Which built-in method combines the text of two strings and returns a new string?",
+        "optionA": "append()", 
+        "optionB": "concat()", 
+        "optionC":"attach()", 
+        "optionD":"None of the above",
+        "answer": "concat()"
+
+    },
+    {
+        "question": "Which built-in method returns the calling string value converted to upper case?",
+        "optionA": "toUpperCase()",
+        "optionB":"toUpper()", 
+        "optionC":"changeCase()", 
+        "optionD":"None of the above",
+        "answer": "toUpperCase()"
+    },
+    {
+        "question": "Which of the following function of String object combines the text of two strings and returns a new string?",
+        "optionA": "add()", 
+        "optionB":"merge()", 
+        "optionC":"concat()", 
+        "optionD":" append()",
+        "answer": "concat()"
+
+    }
+
+]

@@ -1,7 +1,7 @@
 import React, { Fragment } from "react";
 import { Helmet } from "react-helmet";
 import { Link } from "react-router-dom";
-import Play from "./quiz/play"; 
+// import Play from "./quiz/play"; 
 
 
 const Home = () => (
