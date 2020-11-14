@@ -21,6 +21,16 @@
         top: -3px;
     }
 
+    .lifeline-icon {
+        color : $green;
+        cursor:pointer;
+    }
+
+    .lifeline-icon:hover {
+        background: none;
+        color: darken($orange, 10%);
+    }
+
     .timer-container {
         display:flex;
         justify-content: space-between;
@@ -40,7 +50,7 @@
 
     }
 
-    .options {
+    .option {
         background-color: $blue;
         border-radius: $button-radius;
         color:$white;
@@ -52,7 +62,7 @@
         width: 90%;
     }
 
-    .options:hover {
+    .option:hover {
         background-color: darken($blue, 20%);
     }
 

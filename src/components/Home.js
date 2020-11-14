@@ -12,7 +12,7 @@ const Home = () => (
                 <div className="logo">
                     <span className="mdi mdi-circle-outline circle"></span>
                 </div>
-                <h1>JS-QUIZ</h1>
+                <h1>QUIZ</h1>
  
                 <div className="play-button-container">
                     <ul>

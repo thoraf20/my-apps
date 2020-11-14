@@ -32,3 +32,10 @@ body {
     margin-top: 10px;
 
 }
+
+.disable {
+    pointer-events: none ;
+    background-color: #ccc !important;
+    box-shadow : none !important;
+    opacity : 0.9 !important;
+}
