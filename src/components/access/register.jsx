@@ -1,5 +1,5 @@
-import React, {Component} from "react"
-
+import React, { Component } from "react";
+import { Link } from "react-router-dom";
 
 export class Register extends Component {
     constructor(props) {
@@ -31,7 +31,7 @@ export class Register extends Component {
                         <button type="button" className="btn">Register</button>
                     </div>
                 </div>
-                    <p>Already have an account? <a href="/Login">Login</a></p>
+                    <p>Already have an account? <Link to="/Login">Login</Link></p>
             </div>
         )
     }

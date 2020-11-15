@@ -264,7 +264,7 @@ class Play extends Component {
         
         console.log(playerStats);
         setTimeout(() => {
-            this.props.history.push("/");
+            this.props.history.push("/play/summary", playerStats);
         }, 1000);
     }
 
