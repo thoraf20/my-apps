@@ -11,8 +11,8 @@ function App() {
   return (
     <Router>
       <Route path="/" exact component={Home} />
-      <Route path="/Register" exact component={Register} />
-      <Route path="/Login" exact component={Login} />
+      <Route path="/register" exact component={Register} />
+      <Route path="/login" exact component={Login} />
       < Route path="/play/instructions" exact component={QuizInstrctions} />
       < Route path="/play/Quiz" exact component={Play} />
       < Route path="/play/summary" exact component={Summary}/>

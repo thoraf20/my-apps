@@ -40,7 +40,7 @@ class Summary extends Component {
         } else if (score >= 71 && score <= 84) {
             remark = "You did great!";
         } else {
-            remark = "You\'re an absolute genius!";
+            remark = "You're an absolute genius!";
         }
 
         if (state !== undefined) {
